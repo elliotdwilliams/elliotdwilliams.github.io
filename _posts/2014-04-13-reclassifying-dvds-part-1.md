@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reclassifying DVDs, Part 1: Creating a System
+title: Reclassifying DVDs, Part 1&#58; Creating a System
 date: 2014-04-13 00:09
 author: admin
 comments: true
