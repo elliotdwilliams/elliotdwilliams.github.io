@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reclassifying DVDs, Part 2: Wrestling with Genres
+title: Reclassifying DVDs, Part 2&#58; Wrestling with Genres
 date: 2014-04-29 22:29
 author: admin
 comments: true
