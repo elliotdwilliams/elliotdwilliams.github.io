@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Open-source software: Expertise required?
+title: Open-source software&#58; Expertise required?
 date: 2013-04-15 11:00
 author: admin
 comments: true
