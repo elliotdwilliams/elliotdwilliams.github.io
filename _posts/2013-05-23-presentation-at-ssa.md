@@ -6,7 +6,7 @@ author: admin
 comments: true
 categories: [Conferences, presentations, web archiving]
 ---
-This morning, I am presenting my first-ever talk at a professional conference!  This week is the <a href="http://societyofsouthwestarchivists.wildapricot.org/events?eventId=511692&amp;EventViewMode=EventDetails" target="_blank">Society of Southwest Archivists</a> annual meeting here in Austin, and I am giving a talk entitled "Web Archiving for University Records" on a panel about digital records in university archives.  I'm a little nervous, but glad to be giving a presentation at a conference that everyone says is friendly and welcoming.  Plus it doesn't hurt to have the home court advantage!
+This morning, I am presenting my first-ever talk at a professional conference!  This week is the <a href="https://societyofsouthwestarchivists.wildapricot.org/SSA13Presentations" target="_blank">Society of Southwest Archivists</a> annual meeting here in Austin, and I am giving a talk entitled "Web Archiving for University Records" on a panel about digital records in university archives.  I'm a little nervous, but glad to be giving a presentation at a conference that everyone says is friendly and welcoming.  Plus it doesn't hurt to have the home court advantage!
 
 An interest in web archiving is something that I have fallen into somewhat by accident, but through several projects this past year, I had the chance to delve into it.  Working on this presentation was a great opportunity to synthesize some of my thinking about web archiving, and to realize how much more I have to learn about it.
 
