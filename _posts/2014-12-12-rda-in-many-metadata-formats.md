@@ -6,7 +6,7 @@ author: admin
 comments: true
 categories: [cataloging, Cataloging, metadata, RDA, RIMMF]
 ---
-*[Note from 2024: I used a Harry Potter book as an example when I was testing RIMMF back in 2014.  If I had known then what I know now about JK Rowling's appaling anti-trans beliefs, I would have chosen a different example.]*
+*[Note from 2024: I used a Harry Potter book as an example when I was testing RIMMF back in 2014.  If I had known then what I know now about JK Rowling's appalling anti-trans beliefs, I would have chosen a different example.]*
 
 After reading about the <a href="http://www.rdatoolkit.org/jane-a-thon" target="_blank">Jane-athon</a> that is happening at ALA Midwinter in a few months, I decided that I’d like to play around with RDA cataloging outside of the strictures of MARC.  I had a quiet afternoon at my library a few weeks ago, so I figured it was a good time to download the RIMMF tool and try it out.  <a title="RIMMF homepage" href="http://www.marcofquality.com/wiki/rimmf/doku.php?id=rimmf" target="_blank">RIMMF, or RDA In Many Metadata Formats,</a> was created by Deborah and Richard Fritz to use as a training tool for RDA cataloging.  They did a huge service to the library community by creating and releasing it for people like me to play with it.  RIMMF is pretty simple and bare-bones, but I was really excited to use a tool that was designed specifically for RDA.
 
