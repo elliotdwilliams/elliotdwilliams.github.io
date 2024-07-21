@@ -4,7 +4,7 @@ title: Open-source software&#58; Expertise required?
 date: 2013-04-15 11:00
 author: admin
 comments: true
-categories: [ICA-AtoM, iSchool, open-source software, technology, web archiving, Web Curator Tool]
+categories: [iSchool, ICA-AtoM, open-source software, technology, web archiving, Web Curator Tool]
 ---
 I have spent a lot of time in the last few weeks installing software.  Or, to put it more precisely, I have spent a lot of time trying to install software.  Some of my attempts have been successful; some, less so.  The time I spent tinkering with various programs (and occasionally wanting to bang my head against a wall) has led me to reflect on the evolution of my own technical skills and the ways that software programs and documentation encode certain expectations of their users.
 
