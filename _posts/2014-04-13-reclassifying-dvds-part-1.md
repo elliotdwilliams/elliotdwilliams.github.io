@@ -39,11 +39,13 @@ PN<br>
 J68         <em>(Cutter number for title)</em><br>
 1939      <em>(Date of original release)</em><br>
 
-<p style="padding-left: 30px;"><a href="http://www.imdb.com/title/tt0068828/?ref_=nv_sr_1" target="_blank">Lady Sings the Blues</a>
-PN
-1995.9
-.B55       <em>(Cutter number for Biography)</em>
-L33        <em>(Cutter number for title)</em>
-1972      <em>(Date of original release)</em></p>
+
+[Lady Sings the Blues](http://www.imdb.com/title/tt0068828/)
+PN<br>
+1995.9<br>
+.B55       <em>(Cutter number for Biography)</em><br>
+L33        <em>(Cutter number for title)</em><br>
+1972      <em>(Date of original release)</em><br>
+
 
 With the system for creating call numbers established, I thought the hardest part was over and began the process of retrospectively applying it to our collection. Little did I know, however, that genres would become an enormous source of confusion. In my next post, I’ll explain why and go into the details about creating call numbers for the collection.
