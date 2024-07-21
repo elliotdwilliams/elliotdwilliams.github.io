@@ -32,12 +32,13 @@ I based my genre list on the Library of Congress Genre/Form Terms list, specific
 I also made one last local decision: to use the year of the movie’s original release in the call number, rather than the year of the DVD’s publication. Again, my goal was for the call number to include as much information about the movie as possible. Because DVD is a recent format (and Blu-ray even more so), the publication year has no necessary relationship to when the movie came out and, in most cases, is meaningless. The exceptions are DVDs that are released as “special editions” with lots of new material and collections of movies released as a set, for which the publication year is used.
 
 <h2>The final product:</h2>
-<p style="padding-left: 30px;"><a href="http://www.imdb.com/title/tt0031514/?ref_=fn_al_tt_1" target="_blank">Le Jour Se Leve</a>
+[Le Jour Se Leve]("http://www.imdb.com/title/tt0031514/")
 PN
 1997
 .F73       <em>(Cutter number for France)</em>
 J68         <em>(Cutter number for title)</em>
-1939      <em>(Date of original release)</em></p>
+1939      <em>(Date of original release)</em>
+
 <p style="padding-left: 30px;"><a href="http://www.imdb.com/title/tt0068828/?ref_=nv_sr_1" target="_blank">Lady Sings the Blues</a>
 PN
 1995.9
