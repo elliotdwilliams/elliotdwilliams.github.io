@@ -13,20 +13,20 @@ After reading about the <a href="http://www.rdatoolkit.org/jane-a-thon" target="
 Downloading and getting started with RIMMF was very easy.  Actually using it to create records isn’t the most intuitive thing in the world, though - I had some trouble figuring out how to add new element fields and remembering to click in the fields that autofill to actually get the system to provide the information.  Thankfully, though, there is a lot of great documentation on the RIMMF website that walks you through using it.
 
 ![Screenshot of a work-level record in RIMMMF](/images/2014/hp_work.png)
-Work-level record.  Yes, I used Harry Potter and the Chamber of Secrets as my test example.
+*Work-level record.  Yes, I used Harry Potter and the Chamber of Secrets as my test example.*
 
 The design of the tool really puts RDA cataloging rules and the WEMI model at the forefront, which made using it very interesting and enlightening.  The process of describing a resource involves creating separate records for each of the WEMI entities.  I quickly realized that my grasp on the different entities wasn’t as firm as I thought it was -- Expression in particular still feels hazy to me.  Actually seeing the different pieces of information divided up by entity was really useful, not just in remembering which element goes where, but in helping me think about why a certain piece of information is associated with that entity.
 
 ![Screenshot of an expression-level record in RIMMF](/images/2014/hp_exp.png)
-Expression-level record.  This example helped me think about why the illustrations are tied to the Expression level (something I don't deal with much).
+*Expression-level record.  This example helped me think about why the illustrations are tied to the Expression level (something I don't deal with much).*
 
 ![Screenshot of a manifestion-level record in RIMMF](/images/2014/hp_man.png)
- Manifestation-level
+ *Manifestation-level*
 
 After you create records for the Works, Expressions, Manifestations, and Items, RIMMF shows you a relationship tree, demonstrating the hierarchy of the related records in your set.  I had some trouble getting this feature to work at first, but somehow it worked itself out, and it really is pretty neat.  I imagine when you have a lot of records linked together (like the Jane-athon’s goal), it will really show the power of those relationships.
 
 ![Screenshot of relationship tree in RIMMF](/images/2014/hp_rtree_exp.png)
-Relationship tree for this expression.  "Examplar" is the language that RIMMF uses for Item.  I'd love to add other versions (like the audiobook or other editions) to see them linked together.
+*Relationship tree for this expression.  "Examplar" is the language that RIMMF uses for Item.  I'd love to add other versions (like the audiobook or other editions) to see them linked together.*
 
 Each element is named using RDA terminology, and links are provided to the relevant rules in the RDA Toolkit (way to go, hyperlinked Toolkit!).  Entering the data this way is great, and really made me realize how much of my knowledge of RDA is filtered through MARC.  I’m not an expert cataloger, but I consider myself fairly proficient with at least the basic RDA rules and elements.  But since so many of the rules get bent out of shape when they get squeezed into MARC, I never really learned the actual rules - just how to encode the correct data in MARC records.  Working in RIMMF, for example, I realized I don’t fully understand the difference between the title of a work and the title of a manifestation.  And I could never have told you how to create an access point for an expression.  It just goes to show how valuable a tool like RIMMF is, for helping us think about RDA on its own terms, rather than in the terms that MARC dictates.
 
