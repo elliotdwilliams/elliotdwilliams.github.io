@@ -19,6 +19,8 @@ Delete any rows without text in the Full Text column, using “Go To Special”
 
 <a href="https://elliotdwilliams.com/wp-content/uploads/2018/02/ExcelGoToSpecial.png"><img class="alignnone wp-image-372" src="https://elliotdwilliams.com/wp-content/uploads/2018/02/ExcelGoToSpecial.png" alt="" width="383" height="359" /></a>
 
+![Screenshot of Excel 'Go To Special' dialog box](/images/2018/ExcelGoToSpecial.png)
+
 To save each row as its own text file, I used a quick macro that I adapted from responses to a <a href="https://stackoverflow.com/questions/13077740/create-text-files-from-every-row-in-an-excel-spreadsheet">Stack Overflow question</a>. The macro saves each cell in Column B as a txt file, with the value of Column A as the filename:
 <blockquote><span style="color: #333333;"><strong>Sub savemyrowsastext()</strong></span>
 
