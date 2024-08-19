@@ -44,8 +44,6 @@ Well, that should be easy enough to fix en masse using the command line.  After
 <blockquote><strong>sed –i ‘s/    /\r\n\r\n/g’ *.txt</strong></blockquote>
 It's worth noting that sed only works on a bash shell (I use Git Bash).  It’s also a good idea to make backups of the text files before running this, just in case something goes wrong (although you could always just re-export them from the Excel file).
 
-<a href="https://elliotdwilliams.com/wp-content/uploads/2018/02/finishedProduct.png"><img class="alignnone wp-image-373" src="https://elliotdwilliams.com/wp-content/uploads/2018/02/finishedProduct.png" alt="" width="391" height="172" /></a>
-
 ![Screenshot of a Notepad file with the extracted OCR text from a letter](/images/2018/finishedProduct.png)
 
 So that’s it.  Relatively straight-forward, although as I mentioned, I’m sure there are quicker/cleaner ways to do it.  I’d love to hear any feedback or suggestions for how to improve this process!
