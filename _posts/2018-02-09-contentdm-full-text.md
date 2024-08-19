@@ -17,8 +17,6 @@ First, export the metadata for the collection from CONTENTdm, and open it in Exc
 </ul>
 Delete any rows without text in the Full Text column, using “Go To Special”
 
-<a href="https://elliotdwilliams.com/wp-content/uploads/2018/02/ExcelGoToSpecial.png"><img class="alignnone wp-image-372" src="https://elliotdwilliams.com/wp-content/uploads/2018/02/ExcelGoToSpecial.png" alt="" width="383" height="359" /></a>
-
 ![Screenshot of Excel 'Go To Special' dialog box](/images/2018/ExcelGoToSpecial.png)
 
 To save each row as its own text file, I used a quick macro that I adapted from responses to a <a href="https://stackoverflow.com/questions/13077740/create-text-files-from-every-row-in-an-excel-spreadsheet">Stack Overflow question</a>. The macro saves each cell in Column B as a txt file, with the value of Column A as the filename:
@@ -47,5 +45,7 @@ Well, that should be easy enough to fix en masse using the command line.  After
 It's worth noting that sed only works on a bash shell (I use Git Bash).  It’s also a good idea to make backups of the text files before running this, just in case something goes wrong (although you could always just re-export them from the Excel file).
 
 <a href="https://elliotdwilliams.com/wp-content/uploads/2018/02/finishedProduct.png"><img class="alignnone wp-image-373" src="https://elliotdwilliams.com/wp-content/uploads/2018/02/finishedProduct.png" alt="" width="391" height="172" /></a>
+
+![Screenshot of a Notepad file with the extracted OCR text from a letter](/images/2018/finishedProduct.png)
 
 So that’s it.  Relatively straight-forward, although as I mentioned, I’m sure there are quicker/cleaner ways to do it.  I’d love to hear any feedback or suggestions for how to improve this process!
