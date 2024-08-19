@@ -12,7 +12,7 @@ categories: [authority control, metadata, Metadata, OpenRefine, technology, work
 
 [caption id="attachment_327" align="aligncenter" width="500"]<a href="https://elliotdwilliams.com/wp-content/uploads/2016/02/hamname.gif" rel="attachment wp-att-327"><img class="size-full wp-image-327" src="https://elliotdwilliams.com/wp-content/uploads/2016/02/hamname.gif" alt="Gif of Aaron Burr from &quot;Hamtilton&quot; saying &quot;What's your name, man?&quot;" width="500" height="250" /></a> Aaron Burr really cares about name authorities.[/caption]
 
-[Gif of Aaron Burr from &quot;Hamtilton&quot; saying &quot;What's your name, man?&quot;](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHczcDNzaWo3ZXp5b3pnemN6am5qdGd4YThzZXZ4NWY3OXhod3gwOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IZnTvNiCvlmSc/giphy.webp) *Aaron Burr really cares about name authorities.*
+![Gif of Aaron Burr from &quot;Hamtilton&quot; saying &quot;What's your name, man?&quot;](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHczcDNzaWo3ZXp5b3pnemN6am5qdGd4YThzZXZ4NWY3OXhod3gwOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IZnTvNiCvlmSc/giphy.webp) *Aaron Burr really cares about name authorities.*
 
 <span style="font-weight: 400;">CONTENTdm, which we use to host our digital collections, has an option for individual metadata fields to be set as a "controlled vocabulary," meaning that we can define a list of terms that are considered valid for that field.  Setting the fields I wanted to work on for this project as controlled, with the existing contents of the field used as the list of approved terms, meant that I was able to export a text file for each field with all of the terms it contains. CONTENTdm saves those files on its server, </span><span style="font-weight: 400;">so I was able to easily use FileZilla to download the text files for the 13 fields in question.  </span>
 
@@ -25,6 +25,8 @@ categories: [authority control, metadata, Metadata, OpenRefine, technology, work
  	<li style="font-weight: 400;"><span style="font-weight: 400;">In the Field column menu, under Edit Cells, select “Join multi-valued cells”.  That will combine all of the values into one cell, using a selected character as a delimited.</span></li>
 </ul>
 [caption id="attachment_335" align="aligncenter" width="425"]<a href="https://elliotdwilliams.com/wp-content/uploads/2016/02/OpenRefine_JoinMultiValue.png" rel="attachment wp-att-335"><img class=" wp-image-335" src="https://elliotdwilliams.com/wp-content/uploads/2016/02/OpenRefine_JoinMultiValue.png" alt="Screenshot of OpenRefine joining multi-value cells" width="425" height="353" /></a> So much easier than an Excel macro[/caption]
+
+![Screenshot of OpenRefine joining multi-value cells](/images/2016/OpenRefine_JoinMultiValue.png) *So much easier than an Excel macro*
 
 <span style="font-weight: 400;">Okay, now the fun part: I had a list of 740 names and what fields they were found in, so I wanted to: </span>
 <ol>
@@ -39,12 +41,12 @@ categories: [authority control, metadata, Metadata, OpenRefine, technology, work
 
 [caption id="attachment_325" align="aligncenter" width="1010"]<a href="https://elliotdwilliams.com/wp-content/uploads/2016/02/OpenRefine_Cluster.png" rel="attachment wp-att-325"><img class="wp-image-325 size-full" src="https://elliotdwilliams.com/wp-content/uploads/2016/02/OpenRefine_Cluster.png" alt="Screenshot of OpenRefine performing clustering" width="1010" height="657" /></a> Diacritics gone wild[/caption]
 
-[Screenshot of OpenRefine performing clustering](/images/2016/OpenRefine_Cluster.png) *Diacritics gone wild*
+![Screenshot of OpenRefine performing clustering](/images/2016/OpenRefine_Cluster.png) *Diacritics gone wild*
 
 <span style="font-weight: 400;">With all of the reconciliation and clustering done, I had my list of names that needed to be edited. I exported the project out of Refine and back into Excel, with colums for the original name, the reconciled name, and the clustered name. I used some IF(ISERROR(MATCH())) formulas to see if the original name matched the values in the reconciled and clustered name columns, and from there was able to separate out the names to be changed.  I ended up with a total of 88 names.  I then added columns for each original field to indicate if the name was found in that field, allowing me to filter for the names to change in each field.</span>
 
 [caption id="attachment_326" align="alignnone" width="760"]<a href="https://elliotdwilliams.com/wp-content/uploads/2016/02/Excel_ListToChange.png" rel="attachment wp-att-326"><img class="size-large wp-image-326" src="https://elliotdwilliams.com/wp-content/uploads/2016/02/Excel_ListToChange-1024x537.png" alt="Screenshot of Excel list of names" width="760" height="399" /></a> Look at all those names to be updated![/caption]
 
-[Screenshot of Excel list of names](/images/2016/Excel_ListToChange.png) *Look at all those names to be updated!*
+![Screenshot of Excel list of names](/images/2016/Excel_ListToChange.png) *Look at all those names to be updated!*
 
 <span style="font-weight: 400;">Last but not least, I went into CONTENTdm and, field by field, edited the controlled vocabulary and used the built-in “Find and replace” tool to update the names that needed to be changed.  Because I had a well-organized list of what names needed to be changed in each field, I was able to move through this step fairly quickly. </span>
