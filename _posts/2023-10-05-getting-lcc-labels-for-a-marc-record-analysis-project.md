@@ -6,11 +6,8 @@ author: admin
 comments: true
 categories: [cataloging, Cataloging, LCC, Library of Congress, MARC, OpenRefine]
 ---
-<!-- wp:paragraph -->
 <p>Hello! I'm back with another edition of "Elliot writes out the process for how I did something, mostly for myself, but puts on the internet in case anyone else finds it useful." This one started out as one thing (counting percentages of MARC records in a set that contain a given field) and morphed into another thing, as well (use OpenRefine to add labels to LCC class numbers).</p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
 <p>I've been discussing with one of my colleagues ways to enrich our MARC record for musical scores to improve their searchability in the catalog.  One thing that we're interested in is including more 505 table of contents notes, particularly for collections or anthologies of printed music.  There are a lot of reasons that would be nice, but a big one is that collections are one of the main sources in our collection for works by contemporary composers, composers of color, and women composers.  </p>
 <!-- /wp:paragraph -->
 
