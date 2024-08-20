@@ -70,9 +70,7 @@ categories: [cataloging, Cataloging, LCC, Library of Congress, MARC, OpenRefine]
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
-<!-- wp:image {"id":462,"width":600,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image size-full is-resized"><a href="https://elliotdwilliams.com/wp-content/uploads/2023/10/Capture.png"><img src="https://elliotdwilliams.com/wp-content/uploads/2023/10/Capture.png" alt="Screenshot of an OpenRefine window for &quot;Add column based on column Call No normalized&quot;.  " class="wp-image-462" style="width:600px" width="600"/></a><figcaption class="wp-element-caption">Regex for getting the base class number</figcaption></figure>
-<!-- /wp:image -->
+![Screenshot of an OpenRefine window for &quot;Add column based on column Call No normalized&quot;.](/images/2023/CallNo-regex.png) *Regex for getting the base class number*
 
 <!-- wp:paragraph -->
 <p><em>Getting more info about class numbers</em></p>
@@ -92,9 +90,7 @@ categories: [cataloging, Cataloging, LCC, Library of Congress, MARC, OpenRefine]
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
-<!-- wp:image {"id":465,"sizeSlug":"large","linkDestination":"media"} -->
-<figure class="wp-block-image size-large"><a href="https://elliotdwilliams.com/wp-content/uploads/2023/10/Capture4.png"><img src="https://elliotdwilliams.com/wp-content/uploads/2023/10/Capture4-1024x421.png" alt="Screenshot of OpenRefine in records mode, showing three records with multiple rows each, with the column &quot;Call No base&quot; as the first column" class="wp-image-465"/></a><figcaption class="wp-element-caption">Records mode, always a lifesaver</figcaption></figure>
-<!-- /wp:image -->
+![Screenshot of OpenRefine in records mode, showing three records with multiple rows each, with the column &quot;Call No base&quot; as the first column](/images/2023/CallNo-recordsMode.png) *Records mode, always a lifesaver*
 
 <!-- wp:list {"ordered":true,"start":9} -->
 <ol start="9"><!-- wp:list-item -->
@@ -114,9 +110,7 @@ categories: [cataloging, Cataloging, LCC, Library of Congress, MARC, OpenRefine]
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
-<!-- wp:image {"id":463,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image size-full"><a href="https://elliotdwilliams.com/wp-content/uploads/2023/10/Capture3.png"><img src="https://elliotdwilliams.com/wp-content/uploads/2023/10/Capture3.png" alt="Screenshot of three columns in OpenRefine. First column is labeled &quot;Call No base&quot;, and the value is &quot;M1621&quot;. Second column is labeled &quot;RDFXML&quot; and has a lot of XML data in it. Third column is labeled &quot;rdfs Label&quot;, and the value is &quot;Music and Books on Music--Music--Vocal music--Secular vocal music--One solo voice--Accompaniment of keyboard instrument, keyboard and one other instrument, or unaccompanied--Separate works--Keyboard instrument accompaniment&quot;" class="wp-image-463"/></a><figcaption class="wp-element-caption">Class number, retrieved XML, and the full hierarchy label for that number</figcaption></figure>
-<!-- /wp:image -->
+![Screenshot of three columns in OpenRefine. First column is labeled &quot;Call No base&quot;, and the value is &quot;M1621&quot;. Second column is labeled &quot;RDFXML&quot; and has a lot of XML data in it. Third column is labeled &quot;rdfs Label&quot;, and the value is &quot;Music and Books on Music--Music--Vocal music--Secular vocal music--One solo voice--Accompaniment of keyboard instrument, keyboard and one other instrument, or unaccompanied--Separate works--Keyboard instrument accompaniment&quot;](/images/2023/CallNo_rdfxml.png) *Class number, retrieved XML, and the full hierarchy label for that number*
 
 <!-- wp:list {"ordered":true,"start":11} -->
 <ol start="11"><!-- wp:list-item -->
@@ -132,6 +126,4 @@ categories: [cataloging, Cataloging, LCC, Library of Congress, MARC, OpenRefine]
 <p>At this point, I thought I might be fancy and do something with pandas (which I'm very much a beginner with) to count the number of records without a 505 per class number.  But I decided I knew how to do what I wanted to in Excel, so I just did that instead. &#x1f937;  I used some simple deduping and COUNTIF formulas to get the number of records per class number, and the number in each class number that do not have a 505 field.  And it includes the full classification hierarchy label for each number, which is helpful.  That allowed me to highlight all of the rows with "Collection" in the classification label, which has already been helpful in pinpointing some class numbers to explore in more depth.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":460,"sizeSlug":"large","linkDestination":"media"} -->
-<figure class="wp-block-image size-large"><a href="https://elliotdwilliams.com/wp-content/uploads/2023/10/Capture2.png"><img src="https://elliotdwilliams.com/wp-content/uploads/2023/10/Capture2-1024x275.png" alt="Screenshot of an Excel spreadsheet, showing columns labeled # in class, Class Number, # missing TOC, % missing TOC, and Class Label." class="wp-image-460"/></a><figcaption class="wp-element-caption">The final product in Excel</figcaption></figure>
-<!-- /wp:image -->
+![Screenshot of an Excel spreadsheet, showing columns labeled # in class, Class Number, # missing TOC, % missing TOC, and Class Label.](/images/2023/CallNo-excel.png) *The final product in Excel*
