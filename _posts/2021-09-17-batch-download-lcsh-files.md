@@ -26,9 +26,7 @@ categories: [cataloging, Cataloging, command line, Library of Congress, technolo
 <ol><li>Search LCSH for "diaspora" in <a rel="noreferrer noopener" href="https://id.loc.gov/authorities/subjects.html" target="_blank">id.loc.gov</a></li><li>Literally copy and paste from the search results into a spreadsheet.  There were 55 total, so it was only 3 pages of results that I needed to copy.</li></ol>
 <!-- /wp:list -->
 
-<!-- wp:image {"id":436,"width":473,"height":242,"sizeSlug":"full","linkDestination":"media"} -->
-<figure class="wp-block-image size-full is-resized"><a href="https://elliotdwilliams.com/wp-content/uploads/2021/09/image.png"><img src="https://elliotdwilliams.com/wp-content/uploads/2021/09/image.png" alt="Screenshot of a list of search results of LCSH terms, with the information highlighted to be copied and pasted" class="wp-image-436" width="473" height="242"/></a><figcaption>LSCH search results, ready to be copied</figcaption></figure>
-<!-- /wp:image -->
+![Screenshot of a list of search results of LCSH terms, with the information highlighted to be copied and pasted](/images/2021/lcsh-diaspora.png) *LSCH search results, ready to be copied*
 
 <!-- wp:list {"ordered":true,"start":3} -->
 <ol start="3"><li>In the spreadsheet, remove the subjects I'm not interested in, isolate the identifiers (e.g. sh2006004206), and save the list of identifiers as a text file.  Now I have a list of all of the identifiers for the relevant subject headings.</li><li>Now the part that took a bit more figuring out: Use <a href="https://curl.se/docs/manpage.html" data-type="URL" data-id="https://curl.se/docs/manpage.html">curl</a> to download the files in bulk.</li></ol>
@@ -52,6 +50,4 @@ categories: [cataloging, Cataloging, command line, Library of Congress, technolo
 <p>And voila, I had what I wanted!</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":439,"sizeSlug":"large","linkDestination":"media"} -->
-<figure class="wp-block-image size-large"><a href="https://elliotdwilliams.com/wp-content/uploads/2021/09/image-1.png"><img src="https://elliotdwilliams.com/wp-content/uploads/2021/09/image-1-1024x571.png" alt="Screenshot of OpenRefine interface, showing a facet on the left and exported MARC record data in the main view." class="wp-image-439"/></a></figure>
-<!-- /wp:image -->
+![Screenshot of OpenRefine interface, showing a facet on the left and exported MARC record data in the main view.](/images/2021/OpenRefine-diaspora.png)
