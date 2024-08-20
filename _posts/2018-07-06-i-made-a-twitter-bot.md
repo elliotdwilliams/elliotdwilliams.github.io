@@ -6,11 +6,9 @@ author: admin
 comments: true
 categories: [metadata, social media, technology, Uncategorized]
 ---
-<blockquote class="twitter-tweet" data-lang="en">
-<p dir="ltr" lang="en">'People taking a gondola ride along the Coral Gables Waterway. Coral Gables, Florida'
+<blockquote class="twitter-tweet" data-lang="en"><p dir="ltr" lang="en">'People taking a gondola ride along the Coral Gables Waterway. Coral Gables, Florida'
 "Recognizing the importance of having a luxury resort hotel in the city, George Merrick turned to John McEntee Bowman, President o...'<a href="https://t.co/27MqoSFJtU">https://t.co/27MqoSFJtU</a></p>
 — SSDNbot&#x2600;&#x1f334;&#x1f40a; (@SSDNbot) <a href="https://twitter.com/SSDNbot/status/1007986372983042049?ref_src=twsrc%5Etfw">June 16, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I love twitter bots. There are some really cool ones doing interesting things with cultural heritage materials:
 <ul>
@@ -35,11 +33,10 @@ Reading tutorials like those above also introduced me to <a href="http://www.her
 The <a href="https://github.com/elliotdwilliams/SSDNbot" target="_blank" rel="noopener">Python script</a> harvests 500 items at a time from DPLA (because that is DPLA’s API limit), limited to items contributed by SSDN, then randomly picks one of those items to tweet. It composes a tweet that includes the item’s title, the item’s description field (if it has one), and a link to the item in DPLA. Initially, I was just using the title, but so many items have titles that aren’t really very descriptive, so I decided to include the description. Figuring out how to write the logic to only include the description field if it exists was tricky, but was a good thing to learn how to do. I also ended up having to rewrite the script in Python 3, instead of Python 2.7, because of the different ways Unicode is handled in the two versions. Character encoding problems are just inescapable, apparently.
 
 One of the things that this project reinforced for me is the number of things you need to know to get a technical project like this going. (I actually wrote about a similar thing, way back in the [first entry on this blog](https://elliotdwilliams.github.io/open-source-software-expertise-required/), back when I was just a wee iSchool student.) I had most of the Python knowledge that I needed (or could pick it up along the way), but there’s always way more to it than that. I had to learn the slightly different way you use pip on Python 2.7 vs. Python 3. I had to learn about and understand how to deploy something on Heroku. I had to get a better understanding of how to actually use GitHub. There are always more pieces to master than I expect, and I often don’t know I need to know them until I’m confronted with them. I don’t know that there is an easy solution to this, but I think it’s important to remember, especially when thinking about how to create usable documentation and tutorials.
-<blockquote class="twitter-tweet" data-lang="en">
-<p dir="ltr" lang="en">'Jones, Randolph'
+
+<blockquote class="twitter-tweet" data-lang="en"><p dir="ltr" lang="en">'Jones, Randolph'
 'A record describing Jones, Randolph, a colored voter from Leon County, who registered to vote in 1867.'<a href="https://t.co/btiuXMEN6h">https://t.co/btiuXMEN6h</a></p>
 — SSDNbot&#x2600;&#x1f334;&#x1f40a; (@SSDNbot) <a href="https://twitter.com/SSDNbot/status/1012697426740891648?ref_src=twsrc%5Etfw">June 29, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I’ve really enjoyed watching my little bot tweet away. Seeing individual items has helped me notice things about our collections that I wasn’t aware of, and putting them in my twitter feed has helped me contextualize them in new and interesting ways. I also think there is real value for metadata librarians to build things like this. For example, I’ve become more aware of how important distinctive titles are after seeing how unhelpful some titles were on their own.
 
