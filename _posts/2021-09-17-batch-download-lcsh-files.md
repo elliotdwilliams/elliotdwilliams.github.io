@@ -34,9 +34,7 @@ categories: [cataloging, Cataloging, command line, Library of Congress, technolo
 <ol start="3"><li>In the spreadsheet, remove the subjects I'm not interested in, isolate the identifiers (e.g. sh2006004206), and save the list of identifiers as a text file.  Now I have a list of all of the identifiers for the relevant subject headings.</li><li>Now the part that took a bit more figuring out: Use <a href="https://curl.se/docs/manpage.html" data-type="URL" data-id="https://curl.se/docs/manpage.html">curl</a> to download the files in bulk.</li></ol>
 <!-- /wp:list -->
 
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><p><code>in $(cat Desktop/DiasporaSH_ids.txt); do curl -o “Desktop/diaspora/$ID.xml” “https://id.loc.gov/authorities.subjects/$ID.marcxml.xml”; done</code> </p></blockquote>
-<!-- /wp:quote -->
+> <code>in $(cat Desktop/DiasporaSH_ids.txt); do curl -o “Desktop/diaspora/$ID.xml” “https://id.loc.gov/authorities.subjects/$ID.marcxml.xml”; done</code>
 
 <!-- wp:paragraph -->
 <p>Basically, what that does is read the list of identifiers, copies them into a variable ($ID), then runs a curl command using that variable to build the URL and saves the output, in this case as an XML file.  I use GitBash as my shell for running commands like this.  As usual, it took me some time to figure out how to get the "for" loop to work (it always takes me a while to remember how to structure it properly).  And because I use a windows computer, I also had to remove the carriage return characters at the end of the DiasporaSH_ids.txt file, so I’d stop getting an “Illegal characters found in URL” message.  I used <a rel="noreferrer noopener" href="https://linux.die.net/man/1/dos2unix" data-type="URL" data-id="https://linux.die.net/man/1/dos2unix" target="_blank">dos2unix</a> to do that.</p>
