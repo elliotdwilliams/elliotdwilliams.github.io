@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \#archivalfeelings: metadata, history, connection
+title: #archivalfeelings: metadata, history, connection
 date: 2017-09-28 20:58
 author: admin
 comments: true
