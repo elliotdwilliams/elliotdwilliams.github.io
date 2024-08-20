@@ -29,7 +29,7 @@ categories: [cataloging, Cataloging, command line, Library of Congress, technolo
 ![Screenshot of a list of search results of LCSH terms, with the information highlighted to be copied and pasted](/images/2021/lcsh-diaspora.png) *LSCH search results, ready to be copied*
 
 <!-- wp:list {"ordered":true,"start":3} -->
-<ol start="3"><li>In the spreadsheet, remove the subjects I'm not interested in, isolate the identifiers (e.g. sh2006004206), and save the list of identifiers as a text file.  Now I have a list of all of the identifiers for the relevant subject headings.</li><li>Now the part that took a bit more figuring out: Use <a href="https://curl.se/docs/manpage.html" data-type="URL" data-id="https://curl.se/docs/manpage.html">curl</a> to download the files in bulk.</li></ol>
+<ol start="3"><li>In the spreadsheet, remove the subjects I'm not interested in, isolate the identifiers (e.g. sh2006004206), and save the list of identifiers as a text file.  Now I have a list of all of the identifiers for the relevant subject headings.</li><li>Now the part that took a bit more figuring out: Use <a href="https://curl.se/docs/manpage.html" data-type="URL" data-id="https://curl.se/docs/manpage.html">curl</a> to download the files in bulk.  Here's the command I used:</li></ol>
 <!-- /wp:list -->
 
 > <code>in $(cat Desktop/DiasporaSH_ids.txt); do curl -o “Desktop/diaspora/$ID.xml” “https://id.loc.gov/authorities.subjects/$ID.marcxml.xml”; done</code>
