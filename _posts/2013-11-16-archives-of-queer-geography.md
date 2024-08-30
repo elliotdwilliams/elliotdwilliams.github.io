@@ -5,8 +5,10 @@ date: 2013-11-16 03:40
 author: admin
 comments: true
 categories: [Archives, community archives, geography, LGBTQ]
+excerpt_separator: <!--more-->
 ---
 I just got home from a great talk at the <a href="http://www.stonewallnationalmuseum.org/">Stonewall National Museum and Archives</a>.  The talk was about the queer geography of South Florida from the 1970s to today, using census data and advertisements in archived gay magazines to track movements of lesbian and gay households and businesses through different communities in the area.  It was fascinating research, and helped me learn quite a bit about the region I currently call home.  The most exciting thing to me, though, was getting to see people be excited about archives and archival research.
+<!--more-->
 
 The Stonewall archives are special to me, since they are where I did most of the research for my master's thesis.  During that research, I had wondered about some of the questions that this talk addressed, but didn't have the time or the methodological know-how to answer them the way this man did.  He went through decades of magazines and created a database of business addresses, which he then used to create a series of GIS maps showing distributions and change over time.  This is probably a fairly common method in cultural geography, but I thought it was pretty exciting.  Even more so, though, was the clear enthusiasm that this young researcher, who is working on an MA, had when he talked about realizing that this source existed.  He talked about discovering that the Stonewall had copies of these old magazines, many of which are fairly marginal "bar rags" that would be hard to track down otherwise, and it was clear that doing archival research was somewhat new to him.  I'm so glad he got connected to those resources, and it really speaks to the importance of archives reaching out to a wide range of potential user communities -- something we all know, but I think bears repeating.
 
