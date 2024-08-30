@@ -12,4 +12,4 @@ I also have an MA in American history, focusing on LGBT history, as well as a BA
 
 ***
 
-The theme for this site is based on [Reverie](https://github.com/amitmerchant1990/reverie), copyright by Amit Merchant.
+The theme for this site is based on [Reverie](https://github.com/amitmerchant1990/reverie), copyright by Amit Merchant.  The icon is designed by Reion, available from the [Noun Project](https://thenounproject.com/icon/library-6492901/).
