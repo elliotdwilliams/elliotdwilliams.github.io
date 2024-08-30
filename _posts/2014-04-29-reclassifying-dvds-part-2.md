@@ -4,9 +4,11 @@ title: Reclassifying DVDs, Part 2&#58; Wrestling with Genres
 date: 2014-04-29 22:29
 author: admin
 comments: true
-categories: [cataloging, Cataloging, DVDs, genre, work]
+categories: [cataloging, DVDs, genre, work]
+excerpt_separator: <!--more-->
 ---
 Over the past few months, I have been reclassifying the “Popular Movie Collection” at the small academic library where I work. This is the second of two blog posts about the project.  In the <a title="Reclassifying DVDs, Part 1: Creating a System" href="https://elliotdwilliams.github.io/reclassifying-dvds-part-1/" target="_blank">first entry</a>, I wrote about finding a way to fit movies into the Library of Congress classification system.  In this post, I am going to talk about implementing that system, and in particular, my attempts to make sense of movie genres.
+<!--more-->
 
 As I explained in <a title="Reclassifying DVDs, Part 1: Creating a System" href="https://elliotdwilliams.github.io/reclassifying-dvds-part-1/">Part 1</a>, the classification scheme I am using categorizes movies from the U.S. by genre.  I created a list of genres to use by synthesizing the lists given in the Library of Congress classification system and the Library of Congress Genre/Form Thesaurus (LCGFT).  I used only “broad” genres, hoping to have a small set of terms that could describe all of the movies in our collection.  I assumed I might make some adjustments to my genre list as I processed the first few dozens movies, but I didn’t expect too much difficulty.
 
