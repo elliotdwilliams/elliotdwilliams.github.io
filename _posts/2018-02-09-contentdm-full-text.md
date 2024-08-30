@@ -4,9 +4,11 @@ title: Export CONTENTdm Full Text field to .txt files
 date: 2018-02-09 23:01
 author: admin
 comments: true
-categories: [command line, contentdm, excel, metadata, Metadata]
+categories: [command line, contentdm, excel, metadata]
+excerpt_separator: <!--more-->
 ---
 This week, we had a case at my library where we wanted to extract the full-text field for a few of our digital collections and save it as a separate text file for each image.  Normally, we create text files for images by running OCR on them outside of CONTENTdm.  But for a few collections, transcriptions were manually created and entered into the Full Text field directly in CONTENTdm.  We wanted to transfer those transcriptions from the CONTENTdm metadata to plain text files that we can preserve separately, both as a backup and in preparation for a future migration.
+<!--more-->
 
 I thought that other people might have a similar use case for this workflow, and wanted to make sure and save it for myself, so I decided to write up some quick documentation here.  I’m fairly confident that there are other, possibly much simpler, ways to do this, but this was a method that I could do using tools that I already (mostly) was familiar with.
 
