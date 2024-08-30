@@ -5,6 +5,7 @@ date: 2021-09-17 21:53
 author: admin
 comments: true
 categories: [cataloging, Cataloging, command line, Library of Congress, technology]
+excerpt_separator: <!--more-->
 ---
 <!-- wp:paragraph -->
 <p>It's been a minute since I wrote anything on this here blog, but I was working through a process today that I wanted to document and thought that other folks might be interested in.</p>
@@ -13,6 +14,7 @@ categories: [cataloging, Cataloging, command line, Library of Congress, technolo
 <!-- wp:paragraph -->
 <p>This week, a group of coworkers and I were discussing whether there is an LCSH for "Cuban diaspora" (there is not), and whether there should be (we think that might be useful, and might eventually want to work on a proposal).  There are a handful of other LCSH terms for "[blank] diaspora", and I wanted to be able to view them all at once, rather than paging through them individually in ClassWeb.  That way I could compare the See From and See Also From references, the public notes, and the works cataloged, to get a sense of what the format and structure of this group of subject headings is.  So basically, what I wanted to do was to download a batch of LCSH records in a format that I could open in OpenRefine to examine.</p>
 <!-- /wp:paragraph -->
+<!--more-->
 
 <!-- wp:paragraph -->
 <p>LCSH records are available in a variety of formats from <a rel="noreferrer noopener" href="https://id.loc.gov/authorities/subjects.html" target="_blank">id.loc.gov</a>, so I know the records are there on the web.  The records are available in MARCXML, JSON, RDF, and a number of other flavors.  I just needed a way to identify the ones I wanted and download them in batch.</p>
