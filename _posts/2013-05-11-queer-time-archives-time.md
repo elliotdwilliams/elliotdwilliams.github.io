@@ -5,8 +5,10 @@ date: 2013-05-11 02:01
 author: admin
 comments: true
 categories: [Archives, Carolyn Dinshaw, queer theory]
+excerpt_separator: <!--more-->
 ---
 I was lucky enough to spend most of the day yesterday at a symposium put on by a group of UT graduate students entitled "Queer Archives, Queer Affect." The symposium was the culmination of a seminar taught by Ann Cvetkovich exploring the intersections of queer theory, affect theory, and theories of "the archive."  The presenters were graduate students from English, Women's and Gender Studies, Radio/Television/Film, and the School of Information, and the day was capped off with a keynote talk by <a href="http://www.english.upenn.edu/People/HeatherKLove" target="_blank">Heather Love</a>.  It was a really great symposium, and a pretty wonderful way to wrap-up my life as a graduate student.
+<!--more-->
 
 I am really fascinated by academic theories about archives, even as I am sometimes frustrated by them.  I believe very strongly that theory is important and useful, even when it doesn’t immediately seem that way.  Thinking theoretically helps me be much more intentional about what I do and look at things in exciting new ways, and I think that literary and cultural theories about the archive can help archivists do exactly that.  At the same time, though, many of the theorists who talk about “the archive” are so disengaged from what archives actually look like in the traditional sense that their arguments can seem totally foreign.  One of my classmates quoted the Princess Bride when discussing academic uses of the word “archive,” and it seems quite appropriate: “You keep using that word; I do not think it means what you think it means.”  The archivists I know often talk about needing to educate academics about what we do and what material archives are really like, and I agree that that’s important.  But I think in doing that, we shouldn’t lose sight of the fact that we have a lot to learn from them, too.
 
