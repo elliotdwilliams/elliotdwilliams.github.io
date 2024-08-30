@@ -5,8 +5,10 @@ date: 2013-05-03 15:20
 author: admin
 comments: true
 categories: [iSchool, virtual machine, web archiving]
+excerpt_separator: <!--more-->
 ---
 This semester, I took a class on Digital Archives and Preservation, taught by the inestimable Dr. Pat Galloway.  One of distinctive things about this course is that students are assigned into teams that spend the semester tackling a real digital preservation problem.  This semester, groups worked with materials from the School of Information and from the Videogame Archives at the Briscoe Center for American History.  Each group researched the technical and policy challenges of their collection, worked with stakeholders, ensured the long-term stability of their materials, and ingested them into a digital repository.  So not only do we learn about the theoretical bases of digital archiving, we also have the chance to gain practical experience and contribute to the actual preservation of our digital heritage.
+<!--more-->
 
 I was part of a group that was tasked with preserving the <a href="http://www.ischool.utexas.edu" target="_blank">School of Information's website</a>, along with my classmates Jarred Wilson, Laura Vincent, and Kathryn Darnall.  The iSchool's website had been undergoing a major re-design, and the new version of the site launched in March.  This was a perfect time to archive the website, as it gave us a natural "cut-off" date for what version of the site to preserve.  The iSchool recognizes the value of the website, both as a record of the school's official policies and as a historical document providing evidence about the evolution of the field of information studies.  We were therefore lucky to have the cooperation of the administration and website administrators in archiving the site.  Early in the semester, we began meeting with Sam Burns, the iSchool's Content and Communications Strategist and the person who has the most direct control of the website.  He was an enormous help to us, helping us understand the back-end structure of the site and assisting with many of the more technical challenges we faced over the semester.
 
