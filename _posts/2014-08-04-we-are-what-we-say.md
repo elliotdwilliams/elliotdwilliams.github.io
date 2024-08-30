@@ -4,11 +4,13 @@ title: We are what we say...
 date: 2014-08-04 02:44
 author: admin
 comments: true
-categories: [archives, Archives, jargon, language, professional identity]
+categories: [archives, jargon, language, professional identity]
+excerpt_separator: <!--more-->
 ---
 I tweeted about this a little earlier, but it stayed in my mind for a while today, so I thought it deserved a fuller exploration.  This is all very sketchy and not fully thought-out, but it's something I've thought about before and don't have any easy answers for.
 
 I spent this morning curled with a cup of coffee and the <a href="http://archivists.metapress.com/content/m47414114623/" target="_blank">Spring/Summer issue of <i>The American Archivist</i></a>, which I have been slowly working my way through.  This morning, I finished Jennifer Douglas and Heather MacNeil’s article applying genre studies to the calendars and inventories produced at the Public Archives of Canada, and Heather Soyka and Eliot Wilczek’s on documenting the Iraq and Afghanistan wars.  Both excellent pieces, with a lot to think about.  For some reason, the thing that popped out at me from both pieces was the role of archival jargon in what we do and the way we present ourselves as a profession.
+<!--more-->
 
 Douglas and MacNeil discuss jargon more directly, arguing that archivists at PAC used more archival jargon in their finding aids as they adopted a more “professional” attitude towards their work and an increasing differentiation from the historical profession (160-161, 166).  Using words like <i>provenance</i> and <i>original order</i> was a way for the PAC archivists to indicate a level of expertise about the records in their care.  The change in descriptive practices that Douglas and MacNeil describe (moving from calendars to general inventories) is clearly a move towards what we today consider “correct” archival practice, so as I was reading, I found myself mentally cheering the PAC for “getting it right.”  I also think that archivists, individually and as a group, do have a unique and valuable skill set for doing the work that we do, so I was also happy to see an increased sense of professional identity, expressed through shared concepts.
 
