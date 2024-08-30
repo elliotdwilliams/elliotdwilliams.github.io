@@ -5,10 +5,12 @@ date: 2023-08-18 22:08
 author: admin
 comments: true
 categories: [DPLA, metadata, Metadata, python, subject headings]
+excerpt_separator: <!--more-->
 ---
 <!-- wp:paragraph -->
 <p>I’ve been thinking about subject headings a lot lately (as one does), and it inspired me to return to some work that I had started doing while I was at TDL, thinking about subject heading uniqueness in <a href="https://dp.la" target="_blank" rel="noreferrer noopener">DPLA</a>.</p>
 <!-- /wp:paragraph -->
+<!--more-->
 
 <!-- wp:paragraph -->
 <p>One of the things that I’ve noticed in my own metadata work, and that was confirmed for me when I was looking at other people’s metadata as part of my TDL job, is that subject headings for digital collections are often very specific and detailed. On top of that, there aren’t good rules for applying subject headings to digital collections items (in the way that there are for MARC cataloging), and the people who create digital collections metadata often don’t have a lot of expertise in LCSH structure and application rules (no shade, it’s a very niche and abstruse area to have expertise in). All of that combined means that I have a strong suspicion that a lot of subject terms used in a given institution’s digital collections are unique to that institution.</p>
