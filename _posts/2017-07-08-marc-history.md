@@ -4,9 +4,11 @@ title: MARC history timeline
 date: 2017-07-08 15:37
 author: admin
 comments: true
-categories: [cataloging, Cataloging, data formats, history, Library of Congress, MARC, Uncategorized]
+categories: [cataloging, Cataloging, data formats, history, Library of Congress, MARC]
+excerpt_separator: <!--more-->
 ---
 I'm working on a handful of projects about the history of MARC, and one of the things that would be really useful to me is a good, concise history of the family of MARC formats. I haven't been able to find quite what I'm looking for, so I decided to make it!
+<!--more-->
 
 The timeline below is my first, very imperfect attempt at mapping out the big markers in the history of MARC.  A couple of caveats: it is very much the result of my interests and my knowledge (other people would likely highlight other milestones); it is very US-centric (given my familiarity with and interest in MARC21 and USMARC); it is incomplete (I know it is missing things, and hopefully I will add to it over time). I also don't love this timeline format, but I decided to use this simple but unlovely Wordpress plugin until I find something better.
 
