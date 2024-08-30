@@ -4,9 +4,11 @@ title: Reclassifying DVDs, Part 1&#58; Creating a System
 date: 2014-04-13 00:09
 author: admin
 comments: true
-categories: [cataloging, Cataloging, DVDs, Library of Congress, work]
+categories: [cataloging, DVDs, Library of Congress, work]
+excerpt_separator: <!--more-->
 ---
 Over the last few months, I have been working on reclassifying the “Popular Movie Collection” at the small academic library where I work. This is the first of two blog posts I am planning about the project, describing the process of deciding how to classify the movies. [Update: Part 2 can be found [here](https://elliotdwilliams.github.io/reclassifying-dvds-part-2/).]
+<!--more-->
 
 <h2>The collection</h2>
 The “Popular Movie Collection” includes DVDs, Blu-rays, and videogames, and as the name suggests, it is provided primarily for students’ entertainment, rather than as direct support for coursework. The collection has been built up piecemeal through purchases and donations, and consequently has a rather eclectic range of new movies, classic films, and documentaries. It also includes our library’s small collection of Xbox and Playstation games, which students can check out for home use or to use with the gaming consoles in one of our group rooms.
