@@ -5,10 +5,12 @@ date: 2018-07-06 02:25
 author: admin
 comments: true
 categories: [metadata, social media, technology, Uncategorized]
+excerpt_separator: <!--more-->
 ---
 <blockquote class="twitter-tweet" data-lang="en"><p dir="ltr" lang="en">'People taking a gondola ride along the Coral Gables Waterway. Coral Gables, Florida'
 "Recognizing the importance of having a luxury resort hotel in the city, George Merrick turned to John McEntee Bowman, President o...'<a href="https://t.co/27MqoSFJtU">https://t.co/27MqoSFJtU</a></p>
 — SSDNbot&#x2600;&#x1f334;&#x1f40a; (@SSDNbot) <a href="https://twitter.com/SSDNbot/status/1007986372983042049?ref_src=twsrc%5Etfw">June 16, 2018</a></blockquote>
+<!--more-->
 
 I love twitter bots. There are some really cool ones doing interesting things with cultural heritage materials:
 <ul>
