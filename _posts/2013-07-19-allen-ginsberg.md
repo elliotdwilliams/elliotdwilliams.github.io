@@ -5,8 +5,10 @@ date: 2013-07-19 23:36
 author: admin
 comments: true
 categories: [Allen Ginsberg, Archives, emotions, LGBTQ, personal archiving]
+excerpt_separator: <!--more-->
 ---
 I recently read <a href="http://news.stanford.edu/news/2013/july/allen-ginsberg-collection-071913.html" target="_blank">this article about the Allen Ginsberg collection at Stanford</a>, which I saw on Twitter, and was really struck by several things about it.
+<!--more-->
 
 The first was the description of how thinking about his personal collection inspired Ginsberg himself to become more interested in photography:
 <blockquote><span style="color: #333399;">Morgan, [Ginsberg's personal archivist] who spent 20 years cataloging Ginsberg's materials, said the organization process spurred Ginsberg's interest in photography.</span>
