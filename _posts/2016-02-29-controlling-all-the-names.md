@@ -4,9 +4,11 @@ title: Controlling all the names with OpenRefine
 date: 2016-02-29 03:58
 author: admin
 comments: true
-categories: [authority control, metadata, Metadata, OpenRefine, technology, work]
+categories: [authority control, metadata, OpenRefine, technology, work]
+excerpt_separator: <!--more-->
 ---
 <span style="font-weight: 400;">I’m trying to get better at writing out the process for things that I do in my day-to-day metadata work. Mostly, I want to do this for my own personal use - to help me think through my processes more clearly, and to have something to refer back to the next time I want to do something similar.  But I’m also aware of how valuable I find other metadata librarians’ descriptions of the work that they do, so I’m going to post this kind of process-oriented writing here on my blog.  If you read this and have thoughts, questions, suggestion, I’d love to talk about it with you!</span>
+<!--more-->
 
 <span style="font-weight: 400;">Last month, we finalized the metadata for some additions to a <a href="http://merrick.library.miami.edu/cubanHeritage/theater/" target="_blank" rel="noopener">large digital collection of material about Cuban and Cuban-American theater</a></span><span style="font-weight: 400;">.  This particular collection has multiple different fields for creators and contributors (e.g. author, director, cast, costume designer, etc.).  Additionally, this collection has been on-going for several years, meaning many people have created metadata for it.  Now seemed like a good time to exert some authority control on the names in those various creator and contributor fields, doing some standardization and normalization of names.  We use the authorized form of names from LCNAF, for names that have authority records, so my goal was to make sure that all names with LC records used the authorized form, and for all other names, to use one consistent form across all of the fields.</span>
 
