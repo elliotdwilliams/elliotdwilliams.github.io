@@ -5,8 +5,10 @@ date: 2013-04-15 11:00
 author: admin
 comments: true
 categories: [iSchool, ICA-AtoM, open-source software, technology, web archiving, Web Curator Tool]
+excerpt_separator: <!--more-->
 ---
 I have spent a lot of time in the last few weeks installing software.  Or, to put it more precisely, I have spent a lot of time trying to install software.  Some of my attempts have been successful; some, less so.  The time I spent tinkering with various programs (and occasionally wanting to bang my head against a wall) has led me to reflect on the evolution of my own technical skills and the ways that software programs and documentation encode certain expectations of their users.
+<!--more-->
 
 Two years ago, I would have considered myself a fairly competent computer user.  I was able to do pretty much everything I needed to do on a computer, but I had very little knowledge about (or frankly, interest in) what went on under the hood.  In my time at the iSchool, though, I’ve learned quite a bit more, mostly through my coursework in digital archiving and records management, but also from just being in a more technical milieu.  I’m still very much a novice, but I am at least at the beginning stages of becoming an “advanced” user.  I know the basics of how a computer works on a physical and logical level, have a very rudimentary understanding of a few programming languages (not enough to do much on my own, but enough to interpret basic code), and most importantly, I am gaining the confidence to explore and try new things (just recently I made my first foray into a Linux command line).
 
