@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting lists of updated terms from LCSH Monthly Approved Lists
+title: Parsing LCSH Monthly Approved Lists into a list of updated terms
 date: 2025-07-02
 author: admin
 comments: true
@@ -19,7 +19,7 @@ One of the use cases that I’m most interested in is when there is a list that 
 
 So I wanted a way to parse the Approved Lists and get just a list of existing terms that have been changed. Fortunately, despite (or because of?) the fact that they are just plain text HTML pages, the monthly lists are pretty standardized, which made me think that they could be manipulated to get the data that I want out of them. There are probably more appropriate tools for this job, but the one that occurred to me first was OpenRefine, so that is what I went with. (Y’all know I love me some OpenRefine.) After some trial and error, I figured out a set of OpenRefine operations that can be reused to quickly and easily transform the text from a monthly list into a spreadsheet with all of the subjects on that list that were changed.
 
-The JSON file with the OpenRefine operations is in my github here: [https://github.com/elliotdwilliams/loc-monthly-list-changes]https://github.com/elliotdwilliams/loc-monthly-list-changes
+The JSON file with the OpenRefine operations is in my github here: [https://github.com/elliotdwilliams/loc-monthly-list-changes](https://github.com/elliotdwilliams/loc-monthly-list-changes)
 
 Here’s how to use it:
 
