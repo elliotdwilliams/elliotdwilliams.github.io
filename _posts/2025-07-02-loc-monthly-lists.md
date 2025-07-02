@@ -19,7 +19,7 @@ One of the use cases that I’m most interested in is when there is a list that 
 
 So I wanted a way to parse the Approved Lists and get just a list of existing terms that have been changed. Fortunately, despite (or because of?) the fact that they are just plain text HTML pages, the monthly lists are pretty standardized, which made me think that they could be manipulated to get the data that I want out of them. There are probably more appropriate tools for this job, but the one that occurred to me first was OpenRefine, so that is what I went with. (Y’all know I love me some OpenRefine.) After some trial and error, I figured out a set of OpenRefine operations that can be reused to quickly and easily transform the text from a monthly list into a spreadsheet with all of the subjects on that list that were changed.
 
-The JSON file with the OpenRefine operations is in my github here: https://github.com/elliotdwilliams/loc-monthly-list-changes 
+The JSON file with the OpenRefine operations is in my github here: [https://github.com/elliotdwilliams/loc-monthly-list-changes]https://github.com/elliotdwilliams/loc-monthly-list-changes
 
 Here’s how to use it:
 
@@ -33,7 +33,7 @@ Here's how the data will look when you first create the project in OpenRefine:
 
 ![Screenshot of OpenRefine showing a project with many empty rows and rows with data spread across multiple cells](/images/2025/openrefine-new-project.PNG)
 
-Next, copy the OpenRefine operation history and apply it to your project. (To do, go to “Undo/Redo” in the upper left, select “Apply…”, and then paste in the JSON. You an also upload it as a file, but I usually just paste it in.)
+Next, copy the OpenRefine operation history and apply it to your project. (To do that, go to “Undo/Redo” in the upper left, select “Apply…”, and then paste in the JSON. You an also upload it as a file, but I usually just paste it in.)
 
 ![Screenshot of OpenRefine with the "Apply Operation History" window open and lots of JSON pasted in](/images/2025/openrefine-apply-operation-history.PNG)
 
@@ -43,5 +43,6 @@ And voila! Now you have a list of all of the subjects that have been changed, wh
 
 I tried to comment each operation in the JSON file to provide a bit more context about what it is doing. The trickiest part was figuring out how to access the cell below a given cell in OR, but the cross function came to my rescue.
 
-Currently, the operations only work for LCSH terms, not CYAC, LCDGT, etc. It might work partially for those other vocabularies, but the ID and link columns definitely won’t work. I’d like to play around with it some more to be able to parse what vocabulary it is part of, but that will take some work and since I don’t work with those vocabularies regularly, it might not be a high priority.
+Currently, the operations only work for LCSH terms, not CYAC, LCDGT, etc. It might work partially for those other vocabularies, but the ID and link columns definitely won’t work. I’d like to play around with it some more to be able to parse what vocabulary each term is part of, but since I don’t work with those vocabularies regularly, it might not be a high priority.
+
 I’d love to hear if this is helpful to anyone else, or if you know of more efficient ways to get this kind of data from LCSH!
