@@ -46,3 +46,11 @@ I tried to comment each operation in the JSON file to provide a bit more context
 Currently, the operations only work for LCSH terms, not CYAC, LCDGT, etc. It might work partially for those other vocabularies, but the ID and link columns definitely won’t work. I’d like to play around with it some more to be able to parse what vocabulary each term is part of, but since I don’t work with those vocabularies regularly, it might not be a high priority.
 
 I’d love to hear if this is helpful to anyone else, or if you know of more efficient ways to get this kind of data from LCSH!
+
+**Update, September 2026:**
+
+I updated this set of operations so that it also works with headings that have been canceled by LC. (The specific use case was working with the lists of updated & canceled headings as part of the [Indigenous Headings Project](https://www.loc.gov/aba/cataloging/subject/indigenous-headings-project.html).)
+
+So the final list of subjects will now also include headings from the monthly list that have been canceled, as well as the reason given for the cancellation.
+
+![Screenshot of OpenRefine, showing a spreadsheet view with columns called Action, Subject id, Old tag, Old subject, New tag, New subject, id.loc link, and Cancel reason](/images/2025/openrefine-final-product-with-cancel.jpg)
